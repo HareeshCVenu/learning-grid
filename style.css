@@ -15,6 +15,7 @@ testimonials{
     max-width: 1440px;
     margin:100px auto;
     padding: 20px;
+    display: grid;
 }
 .card{
     background: white;
@@ -51,4 +52,19 @@ testimonials{
     font-weight: 500;
     line-height: 1.4;
     opacity: 70%;
+}
+.card--bg--violet{
+    background: hsl(263, 55%, 52%);
+    color: white;
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top 10px right 100px;
+}
+.card--bg--grey{
+    background: hsl(217, 19%, 35%);
+    color: white;
+}
+.card--bg--darkblue{
+    background-color: hsl(219, 29%, 14%);
+    color: white;
 }
